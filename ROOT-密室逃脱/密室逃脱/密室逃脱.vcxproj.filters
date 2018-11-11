@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\Level4">
+      <UniqueIdentifier>{23da7a4f-04ea-4b10-a111-a3ae211a562c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WM_MAIN.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Back.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Clue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelFirst.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CatEye.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CodesLock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EscapeRoom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSecond.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelThrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3_Key.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3_Hook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelFour.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Level4_Clue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelFive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Clue_Screen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Clue_Puzzle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelTip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGameCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Back.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Clue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelFirst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CatEye.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodesLock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EscapeRoom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSecond.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelThrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3_Key.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3_Hook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelFour.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Level4_Clue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelFive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Clue_Screen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Clue_Puzzle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelTip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="密室逃脱.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Back0_Original.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Door_Open.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level1-1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level1-2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level1-3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level1-4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level1-5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level1-6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level1-7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level1-8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level1-9.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level1-NumLock.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level1-0.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level1-Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Door_Light.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Tool_Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CatEyes.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Arrow_White.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Arrow_Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_0_0.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_0_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_0_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_0_3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_0_4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_1_0.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_1_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_1_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_1_3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_1_4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_2_0.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_2_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_2_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_2_3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_2_4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_3_0.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_3_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_3_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_3_3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_3_4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_Clue_B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level2_Clue_W.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level3_BHook.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level3_BKey.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level3_ToolHook.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level3_ToolKey.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level3_WHook.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level3_WKey.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level3_Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level3_GunBig.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level3_GunMid.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level3_GunSmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Level3_Clue.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Tool_BoxBlack.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Tool_BoxWhite.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res4\1-暗1.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-暗2.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-暗3.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-暗4.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-暗5.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-暗6.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-暗7.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-暗8.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-背景1.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-亮1.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-亮2.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-亮3.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-亮4.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-亮5.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-亮6.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-亮7.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-亮8.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-线索1.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-线索2.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-线索3.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res4\1-线索22.bmp">
+      <Filter>资源文件\Level4</Filter>
+    </Image>
+    <Image Include="res5\2-backClue2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res5\2-backClue3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res5\2-backClue4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res5\2-backClue5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res5\2-亮屏幕clue1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res5\Level5_Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res5\Level5_Key_B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res5\Level5_Key_W.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res5\Level5_Tool_Key_B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res5\Level5_Tool_Key_W.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\4_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\4_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\4_3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\4_4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\4_6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\4_7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\4_8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\4_9.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\END.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\Level6_Back1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\Level6_Back2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\Level6_Clue_Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\Level6_Clue0.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\Level6_Clue1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\Level6_Clue2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\Level6_Tool_Key_W.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\Level6_Key_B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\Level6_Key_W.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\Level6_Tool_Key_B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res6\Level6_back3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level1_END_Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level1-Light.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level2_END_Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level2_Light.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level3_END_Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level3_Light.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level4_END_Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level4_Light.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level5_END_Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level5_Light.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level6_back_Light.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level6_END_Back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_back\Level6_Light.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_Menu\Level_All.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_Menu\Level2_Val.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_Menu\Level3_Val.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_Menu\Level4_Val.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_Menu\Level5_Val.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_Menu\Level6_Val.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_Menu\Main_Menu.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_Menu\Main_Menu_Sound.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\Administrator\Desktop\icon_main.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="无标题.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_tip\Level1-tip.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_tip\Level2_tip.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_tip\Level3_tip.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_tip\Level4_tip.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res_tip\Level5_tip.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
