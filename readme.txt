@@ -1,3 +1,1 @@
-#Inluce sag
- g aer hrae
- haer 
+密室逃脱，基于MFC开发的解谜游戏,共6关。
